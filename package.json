@@ -1,0 +1,19 @@
+{
+  "name": "turnbasedlua",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tstl -p tsconfig.json",
+    "dev": "tstl -p tsconfig.json --watch",
+    "start": "npm run build && cd ./build && love ."
+  },
+  "author": "Ben",
+  "license": "ISC",
+  "devDependencies": {
+    "love-typescript-definitions": "^0.21.0",
+    "lua-types": "^2.8.0",
+    "typescript-to-lua": "^0.35.0"
+  }
+}
