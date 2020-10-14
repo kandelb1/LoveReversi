@@ -1,0 +1,2 @@
+src/*.ts linguist-detectable=true
+build/*.lua linguist-detectable=false
